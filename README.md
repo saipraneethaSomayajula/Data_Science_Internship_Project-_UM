@@ -44,15 +44,21 @@ TV-MA is the most common rating.
 
 USA contributes the most content, followed by India & UK.
 
-3️⃣ Project 3 Title (Coming Soon)
+3️⃣ Project 3 oogle Play Store Apps Analysis & Sentiment Prediction
 
-Objective: To be updated
+**Objective:** Analyze apps dataset and predict sentiment of user reviews.
 
-Steps: Data Cleaning → Analysis → Visualization → ML Model(s)
+**Steps:** Data Cleaning → EDA (Categories, Installs, Ratings, WordClouds) → ML (Random Forest) → Confusion Matrix & Insights
 
-Key Results: To be updated
+**Key Results:**
+- Random Forest Classifier: 85.7% accuracy.
 
-Tools Used: Python, SQL, Excel, Scikit-learn
+**Tools Used:** Python, Pandas, Seaborn, Matplotlib, WordCloud, Scikit-learn, TF-IDF
+
+📊 **Insights:**
+- Most apps are free.
+- Positive reviews dominate user feedback.
+- Top categories by installs: Games, Communication, Tools.
 
 4️⃣ Project 4 Title (Coming Soon)
 
