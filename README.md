@@ -1,42 +1,49 @@
-# Data_Science_Internship_Project-_UM
+Data Science Projects Portfolio UM – 4 Projects
+1️⃣ Iris Flower Classification
+Objective
 
-This repository contains the projects I completed during my Data Scientist Internship at Unified Mentor.
-Each project covers data cleaning, analysis, visualization, and machine learning models, using tools like Python, SQL, Excel, and ML libraries.
+Classify iris flowers into three species based on petal and sepal dimensions.
 
-📂 Projects Overview
-1️⃣ Iris Classification (ML Project)
+Steps
 
-Objective: Classify iris flowers into species using petal/sepal measurements.
+Data Cleaning → Visualization → Preprocessing → Model Training (Decision Tree, KNN, Logistic Regression) → Hyperparameter Tuning
 
-Steps: Data Cleaning → Visualization → Preprocessing → Model Training (Decision Tree, KNN, Logistic Regression) → Hyperparameter Tuning
-
-Key Result:
+Key Results
 
 Decision Tree achieved 100% accuracy.
 
 KNN achieved 96% accuracy.
 
-Tools Used: Python, Pandas, Seaborn, Matplotlib, Scikit-learn
+Tools
 
-📊 Insight: Petal length and width are the most important features for classification.
+Python, Pandas, Seaborn, Matplotlib, Scikit-learn
+
+Insights
+
+Petal length and width are the most important features for classification.
 
 2️⃣ Netflix Data Cleaning, Analysis & ML
+Objective
 
-Objective: Analyze Netflix dataset to gain insights into content distribution, and build ML models.
+Analyze Netflix dataset to gain insights into content distribution and build ML models.
 
-Steps: Data Cleaning → EDA (Movies vs TV Shows, Ratings, Countries, Genres) → ML (Decision Tree, KNN) → Recommendation System
+Steps
 
-Key Results:
+Data Cleaning → EDA (Movies vs TV Shows, Ratings, Countries, Genres) → ML (Decision Tree, KNN) → Recommendation System
 
-Decision Tree Classifier: 99.7% accuracy (Movie vs TV Show classification).
+Key Results
 
-KNN Classifier: 90% accuracy.
+Decision Tree Classifier: 99.7% accuracy (Movie vs TV Show classification)
 
-Content-Based Recommendation System: Suggests similar shows/movies based on genres.
+KNN Classifier: 90% accuracy
 
-Tools Used: Python, Pandas, Seaborn, Matplotlib, Scikit-learn, CountVectorizer, Cosine Similarity
+Content-Based Recommendation System suggests similar shows/movies based on genres.
 
-📊 Insights:
+Tools
+
+Python, Pandas, Seaborn, Matplotlib, Scikit-learn, CountVectorizer, Cosine Similarity
+
+Insights
 
 Netflix has more Movies (~70%) than TV Shows (~30%).
 
@@ -44,28 +51,54 @@ TV-MA is the most common rating.
 
 USA contributes the most content, followed by India & UK.
 
-3️⃣ Project 3 oogle Play Store Apps Analysis & Sentiment Prediction
+3️⃣ Google Play Store Apps Analysis & ML
+Objective
 
-**Objective:** Analyze apps dataset and predict sentiment of user reviews.
+Analyze app data to determine factors influencing app ratings and predict sentiment from user reviews.
 
-**Steps:** Data Cleaning → EDA (Categories, Installs, Ratings, WordClouds) → ML (Random Forest) → Confusion Matrix & Insights
+Steps
 
-**Key Results:**
-- Random Forest Classifier: 85.7% accuracy.
+Data Cleaning → Visualization → Preprocessing → Model Training (Logistic Regression, Decision Tree, Random Forest) → Evaluation
 
-**Tools Used:** Python, Pandas, Seaborn, Matplotlib, WordCloud, Scikit-learn, TF-IDF
+Key Results
 
-📊 **Insights:**
-- Most apps are free.
-- Positive reviews dominate user feedback.
-- Top categories by installs: Games, Communication, Tools.
+Sentiment Prediction Accuracy: 85.7% (Random Forest)
 
-4️⃣ Project 4 Title (Coming Soon)
+Tools
 
-Objective: To be updated
+Python, Pandas, Seaborn, Matplotlib, Scikit-learn, WordCloud
 
-Steps: Data Cleaning → Analysis → Visualization → ML Model(s)
+Insights
 
-Key Results: To be updated
+Family and Game categories dominate the Play Store.
 
-Tools Used: Python, SQL, Excel, Scikit-learn
+Positive reviews mention "great", "love", "easy" frequently.
+
+4️⃣ Tobacco Use & Mortality (2004–2015)
+Objective
+
+Analyze tobacco use, hospital admissions, and fatalities; predict future trends.
+
+Steps
+
+Data Cleaning → Visualization → Preprocessing → Model Training (Linear Regression, Decision Tree, Random Forest) → Evaluation
+
+Key Results
+
+Admissions Prediction: Random Forest R² = 0.825
+
+Fatalities Prediction: Random Forest R² = 0.843
+
+Smokers Prediction: Best for 35-49 Age Group (R² = 0.887)
+
+Tools
+
+Python, Pandas, Matplotlib, Scikit-learn
+
+Insights
+
+Tobacco affordability decreased over time.
+
+Middle-aged groups (35–59) have more predictable smoking patterns.
+
+Random Forest consistently outperforms other models.
